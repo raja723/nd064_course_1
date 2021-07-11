@@ -42,4 +42,4 @@ jobs:
           file: ./solutions/python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: raja723/go-helloword/python-helloworld:latest
+          tags: raja723/go-helloword:latest
