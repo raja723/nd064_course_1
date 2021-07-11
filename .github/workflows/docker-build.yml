@@ -39,7 +39,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./solutions/python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
           tags: raja723/go-helloword/python-helloworld:latest
