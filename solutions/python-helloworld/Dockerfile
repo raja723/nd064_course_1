@@ -1,9 +1,9 @@
 FROM python:3.8
 LABEL maintainer="Katie Gamanji"
 
-COPY ./solutions/python-helloworld/Dockerfile /app
+COPY . /app
 WORKDIR /app
-RUN pip install -r requirements.txt
+RUN pip install -r ./solutions/python-helloworld/Dockerfilerequirements.txt
 
 # command to run on container start
 CMD [ "python", "app.py" ]
